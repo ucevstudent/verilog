@@ -109,7 +109,7 @@ assign q = en ? d : q;
 
 endmodule
 
-10.Write RTL code for designing a D latch using a 2:1 mux. 10. Find the output for the below codes:
+10. Find the output for the below codes:
 
 1) reg a,b;
 always@(a,b) begin
