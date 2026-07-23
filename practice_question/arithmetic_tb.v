@@ -17,7 +17,7 @@ arithmetic uut(
 );
 
 initial begin
-       $monitor("time=%b a=%b,b=%b,add=%b,sub=%b,mul=%b,div=%b,modl=%b",
+    $monitor("time=%0t a=%b,b=%b,add=%b,sub=%b,mul=%b,div=%b,modl=%b",
              $time, a, b, add, sub, mul, div, modl);
     a = 10; b = 5; #10;
     $finish;
